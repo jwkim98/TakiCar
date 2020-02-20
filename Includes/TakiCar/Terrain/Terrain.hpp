@@ -27,8 +27,6 @@ public:
 private:
     std::vector<std::vector<double>> m_map;
 
-    double m_width;
-    double m_height;
     double m_maxAltitude;
     double m_minAltitude;
     double m_resolution;
