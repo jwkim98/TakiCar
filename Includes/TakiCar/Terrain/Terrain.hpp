@@ -19,6 +19,11 @@ public:
 
     void Generate(size_t epochs);
 
+    double GetResolution()
+    {
+        return m_resolution;
+    }
+
 private:
     std::vector<std::vector<double>> m_map;
 

@@ -7,15 +7,13 @@
 #include <TakiCar/Terrain/Terrain.hpp>
 #include <cmath>
 #include <random>
-#define M_PI 3.14159265358979323846
+#define PI 3.14159265358979323846
 
 namespace TakiCar
 {
 Terrain::Terrain(double width, double height, double maxAltitude,
                  double minAltitude, double resolution)
-    : m_width(width),
-      m_height(height),
-      m_maxAltitude(maxAltitude),
+    : m_maxAltitude(maxAltitude),
       m_minAltitude(minAltitude),
       m_resolution(resolution)
 {
