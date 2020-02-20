@@ -30,7 +30,7 @@ void Terrain::Generate(size_t epochs)
 
     std::uniform_int_distribution<int> uniformWidth(0, m_cellSizeWidth);
     std::uniform_int_distribution<int> uniformHeight(0, m_cellSizeHeight);
-    std::uniform_real_distribution<double> uniformAngle(0.0, 2 * M_PI);
+    std::uniform_real_distribution<double> uniformAngle(0.0, 2 * PI);
 
     for (size_t count = 0; count < epochs; ++count)
     {
