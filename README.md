@@ -4,9 +4,9 @@
 
 [![License](https://img.shields.io/badge/Licence-MIT-blue.svg)](https://github.com/jwkim98/TakiCar/blob/master/LICENSE) [![Build Status](https://travis-ci.org/jwkim98/TakiCar.svg?branch=master)](https://travis-ci.org/jwkim98/TakiCar/branches) [![Build status](https://ci.appveyor.com/api/projects/status/github/jwkim98/TakiCar?branch=master&svg=true)](https://ci.appveyor.com/project/jwkim98/TakiCar/branch/master)
 
-[![codecov](https://codecov.io/gh/jwkim98/TakiCar/branch/master/graph/badge.svg)](https://codecov.io/gh/utilForever/cpp-oss-template)
+[![codecov](https://codecov.io/gh/jwkim98/TakiCar/branch/master/graph/badge.svg)](https://codecov.io/gh/jwkim98/TakiCar)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7430fcc2933b44209cc97a87050c6a8e)](https://www.codacy.com/manual/jwkim98/TakiCar?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jwkim98/TakiCar&amp;utm_campaign=Badge_Grade)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/jwkim98/TakiCar.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/utilForever/cpp-oss-template/alerts/)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/jwkim98/TakiCar.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jwkim98/TakiCar/alerts/)
 [![Language grade: C/C++](https://img.shields.io/lgtm/grade/cpp/g/jwkim98/TakiCar.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jwkim98/TakiCar/context:cpp)
 
 
