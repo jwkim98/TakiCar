@@ -2,14 +2,14 @@ language: cpp
 
 matrix:
   include:
-    - name: Test Ubuntu 16.04 + gcc-8 + codecov
+    - name: Test Ubuntu 16.04 + gcc-7 + codecov
       os: linux
       addons:
         apt:
           sources:
             - ubuntu-toolchain-r-test
           packages:
-            - g++-8
+            - g++-7
       dist: xenial
       sudo: required
       compiler: gcc
@@ -21,7 +21,7 @@ matrix:
       os: linux
       dist: bionic
       sudo: required
-      compiler: g++-8
+      compiler: g++-7
       script:
         - sh Scripts/travis_build.sh
     - name: Test OS X 10.14 + Xcode 10.2 + clang
