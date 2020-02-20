@@ -28,11 +28,11 @@ Terrain::Terrain(double width, double height, double maxAltitude,
 void Terrain::Generate(size_t epochs)
 {
     std::random_device device;
-    std::mt19937 randomEngine(device);
+    std::mt19937 randomEngine(device());
 
-    const std::uniform_int<> uniformWidth(0, m_cellSizeWidth);
-    const std::uniform_int<> uniformHeight(0, m_cellSizeHeight);
-    const std::uniform_real<> uniformAngle(0, 2 * M_PI);
+    const std::uniform_int_distribution<> uniformWidth(0, m_cellSizeWidth);
+    const std::uniform_int_distribution<> uniformHeight(0, m_cellSizeHeight);
+    const std::uniform_real_distribution<> uniformAngle(0, 2 * M_PI);
 
     for (size_t count = 0; count < epochs; ++count)
     {
