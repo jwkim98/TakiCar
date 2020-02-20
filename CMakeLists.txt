@@ -34,7 +34,7 @@ set(CMAKE_MACOSX_RPATH ON)
 
 # Project modules
 add_subdirectory(Libraries/doctest)
-add_subdirectory(Sources/cpp-oss-template)
+add_subdirectory(Sources/TakiCar)
 add_subdirectory(Tests/UnitTests)
 
 # Code coverage - Debug only
